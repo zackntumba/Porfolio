@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>application météo</title>
+    <link rel="stylesheet" href="/PORFOLIO/projets/METEO APP/style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="error">
+        <p>nom de ville invalide</p>
+      </div>
+
+      <div class="weather">
+        <div class="info">
+          <h1 class="temp">22°c</h1>
+          <p class="feels">10°c</p>
+          <h2 class="city">Paris</h2>
+          <p class="country">France</p>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Entrez le nom de la ville et cliquez sur le boutton. "
+            spellcheck="false"
+          />
+          <button><img src="./images/search.png" alt="" /></button>
+        </div>
+
+        <div class="sand">
+          <img src="./images/rain.png" class="weather-icon" />
+
+          <div class="details">
+            <div class="col">
+              <img src="./images/icons8-vent-64.png" alt="" />
+              <div>
+                <p class="wind">15 km/h</p>
+                <p>vitesse du vent</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="./images/icons8-point-de-rosée-48.png" alt="" />
+              <div>
+                <p class="humidity">50%</p>
+                <p>Humidité</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/PORFOLIO/projets/METEO APP/script.js"></script>
+  </body>
+</html>
